@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 740px;
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.registratsiya {
+    width: 400px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 3px solid #b794e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.registratsiya h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(200, 0, 255);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.input-box {
+    position: relative;
+}
+
+.input-box input {
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 24px;
+    top: 15px;
+}
+
+.input-box label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.forgot {
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+}
+
+form button {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid #b794e6;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #9f5df7;
+}
